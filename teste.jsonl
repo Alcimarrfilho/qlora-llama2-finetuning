@@ -1,0 +1,5 @@
+{"prompt": "O que é batch normalization?", "response": "Batch normalization normaliza as ativações de uma camada durante o treinamento, estabilizando e acelerando o aprendizado."}
+{"prompt": "O que é cross-entropy loss?", "response": "Cross-entropy loss mede a diferença entre a distribuição prevista e a distribuição real em tarefas de classificação."}
+{"prompt": "O que é GPT?", "response": "GPT é uma família de modelos da OpenAI treinados para prever o próximo token de forma autorregressiva."}
+{"prompt": "O que é few-shot learning?", "response": "Few-shot learning é quando o modelo recebe alguns exemplos no prompt para aprender o padrão sem atualização de pesos."}
+{"prompt": "O que é SFT?", "response": "SFT é o processo de ajustar um modelo pré-treinado usando pares de instrução e resposta para alinhar seu comportamento."}

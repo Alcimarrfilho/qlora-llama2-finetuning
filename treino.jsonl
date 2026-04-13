@@ -1,0 +1,45 @@
+{"prompt": "O que é attention mechanism?", "response": "O mecanismo de atenção permite que o modelo foque em partes relevantes da entrada ao processar cada token."}
+{"prompt": "O que é LoRA?", "response": "LoRA é uma técnica de fine-tuning eficiente que treina apenas matrizes menores de decomposição, reduzindo o número de parâmetros treináveis."}
+{"prompt": "O que é BERT?", "response": "BERT é um modelo do Google baseado em transformers, treinado com Masked Language Modeling de forma bidirecional."}
+{"prompt": "O que é reinforcement learning?", "response": "Reinforcement learning é um paradigma onde um agente aprende tomando ações em um ambiente e recebendo recompensas como feedback."}
+{"prompt": "O que é o Llama 2?", "response": "Llama 2 é uma família de modelos de linguagem open source da Meta, disponível em versões de 7B, 13B e 70B parâmetros."}
+{"prompt": "O que é zero-shot learning?", "response": "Zero-shot learning é a capacidade de realizar tarefas sem exemplos explícitos, usando apenas instruções em linguagem natural."}
+{"prompt": "O que é RLHF?", "response": "RLHF usa feedback humano para alinhar modelos de linguagem com preferências e valores humanos."}
+{"prompt": "O que é machine learning?", "response": "Machine learning é um subcampo da IA onde sistemas aprendem padrões a partir de dados sem serem explicitamente programados."}
+{"prompt": "O que é gradient checkpointing?", "response": "Gradient checkpointing recalcula ativações durante o backward pass em vez de armazená-las, trocando tempo por memória."}
+{"prompt": "O que é transfer learning?", "response": "Transfer learning é a técnica de reaproveitar um modelo pré-treinado em uma tarefa para resolver uma tarefa diferente com menos dados."}
+{"prompt": "O que é MLM?", "response": "MLM é o objetivo de pré-treinamento do BERT onde tokens são mascarados e o modelo aprende a reconstruí-los."}
+{"prompt": "O que é CLM?", "response": "CLM é o objetivo de pré-treinamento de modelos GPT onde o modelo aprende a prever o próximo token dado o contexto anterior."}
+{"prompt": "O que é overfitting?", "response": "Overfitting ocorre quando um modelo aprende demais os dados de treino e perde a capacidade de generalizar para novos dados."}
+{"prompt": "O que é um modelo fundacional?", "response": "Modelo fundacional é um modelo de grande escala pré-treinado em grandes volumes de dados adaptável para diversas tarefas."}
+{"prompt": "O que é um hiperparâmetro?", "response": "Hiperparâmetro é uma configuração definida antes do treinamento, como learning rate, batch size e número de camadas."}
+{"prompt": "O que é um LLM?", "response": "LLM é um modelo de linguagem treinado em grandes volumes de texto, capaz de gerar e compreender linguagem natural."}
+{"prompt": "O que é um encoder?", "response": "Encoder processa a entrada e gera representações contextuais ricas usadas para tarefas de compreensão."}
+{"prompt": "O que é BPE?", "response": "BPE é um algoritmo de tokenização que funde pares de caracteres mais frequentes iterativamente para construir o vocabulário."}
+{"prompt": "O que é regularização L2?", "response": "Regularização L2 adiciona uma penalidade proporcional ao quadrado dos pesos na função de perda, evitando overfitting."}
+{"prompt": "O que é um embedding?", "response": "Embedding é uma representação densa de dados em espaço vetorial de menor dimensão, capturando relações semânticas entre elementos."}
+{"prompt": "O que é learning rate?", "response": "Learning rate controla o tamanho do passo dado pelo otimizador a cada atualização dos pesos do modelo."}
+{"prompt": "O que é PEFT?", "response": "PEFT é um conjunto de técnicas que permitem fazer fine-tuning de LLMs treinando apenas uma fração dos parâmetros."}
+{"prompt": "O que é dropout?", "response": "Dropout desativa aleatoriamente neurônios durante o treinamento para evitar overfitting."}
+{"prompt": "O que é fine-tuning?", "response": "Fine-tuning é o processo de ajustar um modelo pré-treinado com dados específicos de um domínio para melhorar seu desempenho naquela tarefa."}
+{"prompt": "O que é autoregressive generation?", "response": "Geração autorregressiva é o processo onde o modelo gera um token por vez usando os tokens anteriores como contexto."}
+{"prompt": "O que é um decoder?", "response": "Decoder gera a saída token a token usando atenção mascarada para não ver tokens futuros."}
+{"prompt": "O que é self-attention?", "response": "Self-attention permite que cada token calcule sua relevância em relação a todos os outros tokens da sequência."}
+{"prompt": "O que é NLP?", "response": "NLP é a área da IA que trata do processamento e compreensão de linguagem humana por computadores."}
+{"prompt": "O que é um transformer?", "response": "Transformer é uma arquitetura de rede neural baseada em mecanismos de atenção, amplamente usada em modelos de linguagem."}
+{"prompt": "O que é batch size?", "response": "Batch size é o número de amostras processadas simultaneamente antes de atualizar os pesos do modelo."}
+{"prompt": "O que é temperatura em LLMs?", "response": "Temperatura controla a aleatoriedade da geração, onde valores altos geram respostas mais criativas e valores baixos mais determinísticas."}
+{"prompt": "O que é positional encoding?", "response": "Positional encoding adiciona informação sobre a posição de cada token, já que transformers não processam dados sequencialmente."}
+{"prompt": "O que é early stopping?", "response": "Early stopping interrompe o treinamento quando a métrica de validação para de melhorar, evitando overfitting."}
+{"prompt": "O que é uma epoch?", "response": "Epoch é uma passagem completa do modelo por todo o dataset de treinamento durante o processo de aprendizado."}
+{"prompt": "O que é weight decay?", "response": "Weight decay é uma técnica de regularização que penaliza pesos grandes durante o treinamento para evitar overfitting."}
+{"prompt": "O que é tokenização?", "response": "Tokenização é o processo de dividir texto em unidades menores chamadas tokens, que são processadas pelos modelos de linguagem."}
+{"prompt": "O que é backpropagation?", "response": "Backpropagation calcula o gradiente da função de perda em relação aos pesos, propagando o erro da saída para a entrada."}
+{"prompt": "O que é QLoRA?", "response": "QLoRA combina quantização 4-bits com LoRA para permitir o fine-tuning de modelos grandes em GPUs com memória limitada."}
+{"prompt": "O que é quantização em modelos de IA?", "response": "Quantização reduz a precisão dos pesos do modelo, como de 32 bits para 4 bits, economizando memória e acelerando a inferência."}
+{"prompt": "O que é beam search?", "response": "Beam search mantém as k melhores sequências parciais a cada passo para encontrar a sequência mais provável."}
+{"prompt": "O que é uma função de ativação?", "response": "Função de ativação introduz não-linearidade na rede neural, permitindo que ela aprenda padrões complexos. Exemplos: ReLU, sigmoid, tanh."}
+{"prompt": "O que é uma rede neural?", "response": "Uma rede neural é um modelo computacional inspirado no cérebro humano, composto por camadas de neurônios artificiais conectados."}
+{"prompt": "O que é WordPiece?", "response": "WordPiece é um algoritmo de tokenização usado pelo BERT que divide palavras em subpalavras marcando continuações com ##."}
+{"prompt": "O que é gradient descent?", "response": "Gradient descent é um algoritmo de otimização que ajusta os pesos do modelo na direção que minimiza a função de perda."}
+{"prompt": "O que é prompt engineering?", "response": "Prompt engineering é a prática de elaborar instruções cuidadosamente para extrair as melhores respostas de LLMs."}
