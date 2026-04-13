@@ -79,4 +79,4 @@ Especificamente, o Claude (Anthropic) foi utilizado para:
 Todo o código foi revisado, compreendido e adaptado pelo autor antes da submissão.
 
 ## Versionamento
-Tag v1.0 — versão final entregue para avaliação acadêmica
+Tag v1.0 — versão final
